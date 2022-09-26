@@ -28,7 +28,7 @@ print ("")
 mengetik("\033[31;1m  ╔════════════════════════════════════════════════╗")
 mengetik(" \033[33;1m  \033[36;1m [•] Authour : MR.Dauz                    \033[33;1m ")
 mengetik("\033[33;1m  \033[36;1m  [•] gitHub  : https:github.com/Id0zz     \033[33;1m ")
-mengetik(" \033[33;1m  \033[36;1m [•] Yotube  : Id0zz                 \033[33;1m ")
+mengetik(" \033[33;1m  \033[36;1m [•] Yotube  : Belum Bikin chanel                \033[33;1m ")
 mengetik("\033[31;1m  ╚════════════════════════════════════════════════╝")
 print ("")
 mengetik("\033[36;1m ╔═══════════════════════════╗")
@@ -64,6 +64,6 @@ for k in range(jumlah):
   data = json.dumps({"phone_number":"+62"+nomer,"channel":"WA"})
   pos = requests.post("https://api.qoalaplus.com/go-agent/v2/user/register",headers=head,data=data).text
   if "success" in pos:
-    print("Spam WhatsApp Qoala Plus Berhasil",k)
+    print("Spam WhatsApp Berhasil",k)
   else:
-    print("Spam WhatsApp Qoala Plus Gagal Ke",k)
+    print("Spam WhatsApp Gagal Ke",k)
