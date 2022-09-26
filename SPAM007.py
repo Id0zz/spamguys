@@ -14,14 +14,6 @@ def mengetik(z):
       time.sleep(0.02)
 
 os.system('clear')
-print ('\033[36;1mwajib subscribe...!!')
-sleep(2)
-os.system('termux-open-url https://www.youtube.com/channel/UCEZ2BiNuCPq2fu4WhnNRkMg')
-
-k = 0
-
-sleep(3)
-os.system('clear')
 #BANNER
 print ("")
 mengetik("\033[31;1m   _____                          _       __")     
@@ -34,7 +26,7 @@ mengetik("\033[37;1m    /_/                                          ")
 #subrek dulu lur
 print ("")
 mengetik("\033[31;1m  ╔════════════════════════════════════════════════╗")
-mengetik(" \033[33;1m  \033[36;1m [•] Authour : mr.Id0zz                    \033[33;1m ")
+mengetik(" \033[33;1m  \033[36;1m [•] Authour : MR.Dauz                    \033[33;1m ")
 mengetik("\033[33;1m  \033[36;1m  [•] gitHub  : https:github.com/Id0zz     \033[33;1m ")
 mengetik(" \033[33;1m  \033[36;1m [•] Yotube  : Id0zz                 \033[33;1m ")
 mengetik("\033[31;1m  ╚════════════════════════════════════════════════╝")
